@@ -1,0 +1,74 @@
+.container{
+	width: 1000px;
+	margin: 0 auto;	
+	color: #444444;
+}
+.header{
+	margin: 8px;
+}
+.shop_icon,.wangwang_icon,.promotion_icons span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: aqua
+}
+.promotion_icons span{
+	margin-left: 4px;
+}
+.items{
+	border: 1px solid gray ;
+}
+.item{
+	display: flex;
+	margin:8px;
+}
+.item_img{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: pink;
+	margin:0 6px;
+}
+.item_name{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.sku , .price , .num_control , .item_price_total, .operation{
+	margin-left: 18px;
+}
+.num{
+	width: 18px;
+/* 	padding: 0; */
+}
+.num_control{
+	display: flex;
+	align-items: center;/*重要baseline*/
+}
+.num_minus , .num_plus{
+    text-align: center;
+    width: 18px;
+    height: 21px;
+    display: inline-block;
+    background-color: #00FFFF;
+	
+}
+.checkout{
+	display: flex;
+	justify-content: space-between;
+}
+.shop{
+	margin: 20px 0;
+}
+.price_1{
+	text-decoration: line-through;
+	color: gray;
+}
+.price_2{
+	color: orangered;
+}
+.checked_num,.total_price {
+	font-size = large;
+	color: red;
+	margin:0 3px;
+}
